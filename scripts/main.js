@@ -15,7 +15,7 @@ myImage.onclick = function() {
           setUserName();
         } else {
           localStorage.setItem('name', myName);
-          myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+          myHeading.innerHTML = 'Welcome to Golf Buddies, ' + myName;
         }
       }
     if(!localStorage.getItem('name')) {
